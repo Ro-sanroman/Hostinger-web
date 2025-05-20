@@ -542,6 +542,7 @@ header {
 .link-section {
   display: flex;
   gap: 15px;
+  padding-top: 15px;
 }
 
 .aling {
