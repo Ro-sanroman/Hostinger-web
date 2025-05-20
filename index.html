@@ -3,12 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="icon"
-      href="./imagenes/head.png"
-      sizes="32x32"
-      class="icon-head"
-    />
+    <link rel="shortcut icon" href="./imagenes/head.png" type="image/x-icon">
     <title>Hostinger</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
@@ -24,18 +19,22 @@
             </div>
             <div class="navegation-menu header-text">
               <a href="#">Precios</a>
-              <a href="#">Servicios</a>
-              <a href="#">Explorar</a>
-              <a href="#">Soporte</a>
-              <a href="#">Horizons</a>
+              <a href="#">Servicios <i class="bi bi-chevron-down icon-chevron"></i></a>
+              <a href="#">Explorar <i class="bi bi-chevron-down icon-chevron"></i></a>
+              <a href="#">Soporte <i class="bi bi-chevron-down icon-chevron"></i></a>
+              <a href="#">Horizons</i></a>
             </div>
           </nav>
         </div>
       </div>
       <div class="header right-content">
         <div class="language-wrapper">
-          <img src="./imagenes/arg.png" alt="" class="flag__content" />
-          <button class="button__language" type="button">Español</button>
+          <a href="#" class="row">
+            <div class="aling-flag">
+              <img src="./imagenes/arg.avif" alt="" class="flag__content" />
+            </div>
+            <button type="button" class="button__language">Español</button>
+          </a>
         </div>
         <a href="#" class="button__sing">Ingresar</a>
       </div>
@@ -79,7 +78,7 @@
           </div>
           <div class="hero-buttons">
             <div class="primary-button button-wrapper">
-              <a href="#">
+              <a href="#" class="inline">
                 <button class="text__button">Empezar ya</button>
               </a>
             </div>
@@ -113,7 +112,7 @@
           </p>
         </div>
         <div class="content--boxes">
-          <article class="content-boxes__box__1">
+          <article class="content-boxes__box__1 box">
             <div class="content-icon icons__s2">
               <i class="bi-bi-list-ul"></i>
               <svg
@@ -140,7 +139,7 @@
               </h4>
             </div>
           </article>
-          <article class="content-boxes__box__2">
+          <article class="content-boxes__box__2 box">
             <div class="content-icon icons__s2">
               <i class="bi-bi-lightning-charge"></i>
               <svg
@@ -167,7 +166,7 @@
               </h4>
             </div>
           </article>
-          <article class="content-boxes__box__3">
+          <article class="content-boxes__box__3 box">
             <div class="content-icon icons__s2">
               <i class="bi-bi-check-circle"></i>
               <svg
@@ -383,27 +382,27 @@
               </div>
               <div class="social-logo">
                 <div class="social-logo__wrapper">
-                  <a href="#">
+                  <a href="#" class="inline">
                     <i class="bi bi-linkedin web-icon"></i>
                   </a>
                 </div>
                 <div class="social-logo__wrapper">
-                  <a href="#">
+                  <a href="#" class="inline">
                     <i class="bi bi-facebook web-icon"></i>
                   </a>
                 </div>
                 <div class="social-logo__wrapper">
-                  <a href="#">
+                  <a href="#" class="inline">
                     <i class="bi bi-instagram web-icon"></i>
                   </a>
                 </div>
                 <div class="social-logo__wrapper">
-                  <a href="#">
+                  <a href="#" class="inline">
                     <i class="bi bi-twitter-x web-icon"></i>
                   </a>
                 </div>
                 <div class="social-logo__wrapper">
-                  <a href="#">
+                  <a href="#" class="inline">
                     <i class="bi bi-youtube web-icon"></i>
                   </a>
                 </div>
@@ -434,7 +433,11 @@
                   alt=""
                   class="payment-design"
                 />
-                <a href="#"><p>y más</p></a>
+                <div class="aling">
+                  <p>
+                    <a href="#">y más</a>
+                  </p>
+                </div>
               </div>
               <div class="link-section term-text">
                 <a href="#">Política de privacidad</a>

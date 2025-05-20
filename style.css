@@ -16,7 +16,7 @@
   --color-principal-100: #683ee6;
 }
 
-.icon-head head {
+.icon-head {
   background-color: transparent;
   display: flex;
   align-items: center;
@@ -34,6 +34,11 @@ header {
   background-color: white;
   align-items: center;
   padding-right: 40px;
+}
+
+.icon-chevron {
+  font-size: 10px;
+  font-weight: 900;
 }
 
 .left-content {
@@ -137,7 +142,8 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding-top: 64px;
+  height: 580px;
+  gap: 60px;
 }
 
 .hero-left__content {
@@ -157,6 +163,11 @@ header {
   display: flex;
   flex-direction: row;
   gap: 12px;
+}
+
+.inline {
+  outline: none;
+  text-decoration: none;
 }
 
 .button-wrapper {
@@ -211,15 +222,13 @@ header {
 
 .button__language {
   color: #1d1e20;
-  text-decoration: none;
   border: none;
-  outline: none;
   background-color: transparent;
 }
 
 .flag__content {
-  width: 25px;
-  height: 24px;
+  width: 24px;
+  height: 14px;
 }
 
 .language-wrapper {
@@ -243,8 +252,8 @@ header {
 
 .hero-right__content {
   display: flex;
-  height: 400.5px;
-  width: 600px;
+  height: 450.5px;
+  width: 650px;
 }
 
 .counter-wrapper {
@@ -341,19 +350,23 @@ header {
   text-align: center;
   border: 2px solid var(--color-principal-100);
   text-decoration: none;
-  margin: 35.5px 40px;
+  margin: 20px 0px 50px 0px;
   color: white;
 }
 
 .content--boxes {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  padding-left: 250px;
-  padding-right: 250px;
+  align-items: stretch;
+  padding-left: 200px;
+  padding-right: 200px;
   gap: 16px;
-  width: 100%;
+  width: 110%;
   flex: 1;
+}
+
+.box {
+  flex: 1 1 0;
 }
 
 .content-boxes__box__1 {
@@ -363,6 +376,7 @@ header {
   text-align: left;
   border-radius: 16px;
   background-color: var(--color-principal-400);
+  gap: 10px;
 }
 
 .content-boxes__box__2 {
@@ -372,6 +386,7 @@ header {
   text-align: left;
   border-radius: 16px;
   background-color: var(--color-principal-400);
+  gap: 10px;
 }
 
 .content-boxes__box__3 {
@@ -381,6 +396,7 @@ header {
   text-align: left;
   border-radius: 16px;
   background-color: var(--color-principal-400);
+  gap: 10px;
 }
 
 .content-icon {
@@ -435,7 +451,7 @@ header {
 
 .logo-design {
   height: 30px;
-  width: 140px;
+  width: 110px;
 }
 
 .footer-base {
@@ -526,4 +542,18 @@ header {
 .link-section {
   display: flex;
   gap: 15px;
+}
+
+.aling {
+  padding-top: 13px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.aling-flag {
+  padding-top: 3px;
 }
