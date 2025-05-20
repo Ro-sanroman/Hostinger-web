@@ -400,6 +400,8 @@ header {
 
 .footer-wrapper {
   padding-top: 56px;
+  padding-left: 250px;
+  padding-right: 250px;
 }
 
 .footer-content__boxes {
@@ -417,19 +419,14 @@ header {
   list-style-type: none;
 }
 
-.footer-content {
-  padding: 0px 0px;
-  margin: 0px 280.667px;
-}
-
 .text-footer__medium {
-  font-size: 14px;
+  font-size: 13.5px;
   color: var(--color--principal--500);
   font-weight: 700;
 }
 
 .text-footer__small {
-  font-size: 12px;
+  font-size: 11.5px;
   color: var(--color--principal--500);
   font-weight: 400;
   text-decoration: none;
@@ -438,7 +435,7 @@ header {
 
 .logo-design {
   height: 30px;
-  width: 147px;
+  width: 140px;
 }
 
 .footer-base {
@@ -465,13 +462,13 @@ header {
 }
 
 .term-text a {
-  font-size: 14px;
+  font-size: 10px;
   font-weight: 400;
   text-decoration: none;
 }
 
 .term-text p {
-  font-size: 14px;
+  font-size: 10px;
   font-weight: 400;
   text-decoration: none;
   color: var(--color--principal--500);
@@ -482,14 +479,17 @@ header {
   gap: 15px;
 }
 
+.social-logo {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
 .social-logo__wrapper {
   height: 25px;
   width: 25px;
   background-color: var(--color--principal--500);
   border-radius: 8px;
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
 }
 
 .web-icon {
@@ -504,6 +504,10 @@ header {
 
 .footer__copyright-text {
   border-top: 1px solid #d5dfff;
+  padding: 10px 0px 10px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .social-section {
@@ -516,4 +520,10 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.link-section {
+  display: flex;
+  gap: 15px;
 }
